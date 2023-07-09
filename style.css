@@ -1,14 +1,19 @@
-*{margin: 0px;}
-div > li{
-   cursor: none;
+* {
+    margin: 0px;
 }
-.nav-container{
+
+.nav-container {
     display: flex;
     background-color: grey;
     padding: 0px 0px 10px 10px;
     justify-content: space-around;
 }
-.menus{
+
+.logo {
+    cursor: pointer;
+}
+
+.menus {
     list-style: none;
     display: flex;
     gap: 15px;
@@ -16,11 +21,12 @@ div > li{
     font-style: italic;
     align-items: center;
     cursor: pointer;
-    
+
 }
-.banner-container{
+
+.banner-container {
     height: 100vh;
-    background-image: url('./asset/image/background.jpg'),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7));
+    background-image: url('./asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,26 +36,31 @@ div > li{
     align-items: center;
 
 }
-.title{
+
+.title {
     font-size: 55px;
     font-weight: bold;
     color: white;
 }
-#digital{
+
+#digital {
     color: red;
 }
-.description{
+
+.description {
     color: white;
     padding: 30px;
     width: 50%;
     margin: auto;
 }
-.btn{
+
+.btn {
     padding: 12px;
     border: none;
     cursor: pointer;
 }
-.btn-1{
+
+.btn-1 {
     padding: 12px;
     border: none;
     background-color: red;
@@ -58,9 +69,11 @@ div > li{
     cursor: pointer;
 
 }
-.btn:hover{
+
+.btn:hover {
     color: red;
 }
-.btn-1:hover{
+
+.btn-1:hover {
     color: black;
 }
