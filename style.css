@@ -1,0 +1,19 @@
+*{margin: 0px;}
+div > li{
+   cursor: none;
+}
+.nav-container{
+    display: flex;
+    background-color: grey;
+    padding: 0px 0px 10px 10px;
+    justify-content: space-around;
+}
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font: 17px;
+    font-style: italic;
+    align-items: center;
+    
+}
